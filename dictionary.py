@@ -1,6 +1,6 @@
 lista_comandos = {
-        "Ayuda": "Ayuda\n Muestra esta ventana de informacion",
-        "Listar": "Lista los archivos en el directorio actual",
+        "ayuda": "Ayuda\n Muestra esta ventana de informacion",
+        "listar": "Lista los archivos en el directorio actual",
     }
 lista_palabras = {"ayuda","listar","limpiar","concatenar","editar"}
 

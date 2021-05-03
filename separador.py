@@ -1,16 +1,20 @@
 import dictionary
 import validador
+import comandos
+
 
 def separador(palabra_recibida):
+    lista = []
     x = palabra_recibida.split(" ")
     for i in x:
         if validador.validacion(i) != 100:
-            print("Palabras denegadas")
+            print("Palabras denegadas, revise la sintaxis")
             break
         else:
             print("Palabras aceptadas")
+            lista.append(i)
             continue
-
+    comandos.buscadorComandos(lista)
 
 
 # def separador(palabra_recibida):
