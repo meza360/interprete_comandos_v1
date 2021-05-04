@@ -3,7 +3,7 @@ import sys
 import validador
 import dictionary
 
-listaComandos = [""listar","limpiar","concatenar","editar"]
+listaComandos = ["listar","limpiar","concatenar","editar"]
 
 
 def buscadorComandos(listaRecibida):
