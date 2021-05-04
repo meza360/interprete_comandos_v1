@@ -9,6 +9,7 @@ def separador(palabra_recibida):
     for i in x:
         if validador.validacion(i) != 100:
             print("Palabras denegadas, revise la sintaxis")
+            lista.append(i)
             break
         else:
             print("Palabras aceptadas")

@@ -7,5 +7,5 @@ while True:
     palabra = input("Ingrese un comando ó ingrese 'Ayuda' para mostrar una guia\n")
 #dictionary.ayuda_comandos("Ayuda")
 
-#x = palabra.split(" ")
+#x = palabra.split(" ")ayud
     separador.separador(palabra)

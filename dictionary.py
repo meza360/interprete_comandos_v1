@@ -1,5 +1,5 @@
 lista_comandos = {
-        "ayuda": "\nAyuda\n Muestra esta ventana de informacion",
+        "ayuda": "\nAyuda\n Muestra esta ventana de informacion\nPara mostrar todos los comandos disponibles, puede ingresar 'ayuda comandos'",
         "listar": "\nLista los archivos en el directorio actual\n Uso: listar ó listar ruta/",
         "directorio": "\nMuestra la ruta sobre la cual se esta trabajando actualmente\n Uso: directorio",
         "limpiar": "\nLimpia la pantalla actual en la terminal\n Uso: limpiar",
@@ -11,8 +11,10 @@ lista_comandos = {
 
     }
 
-listaComandos = ["listar","directorio","limpiar","editar","concatenar","direcccionip","usocpu"]
+#listaComandos = ["listar","directorio","limpiar","editar","concatenar","direcccionip","usocpu"]
 
 def ayuda_comandos(keyword):
-    print(lista_comandos[keyword])
-    
+    if keyword != "comandos":
+        print(lista_comandos[keyword])
+    else:
+        print(lista_comandos)
