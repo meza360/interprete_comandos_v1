@@ -1,4 +1,4 @@
-# interprete_comandos_v1
+# Interprete de comandos basico v1
 Creacion de un interprete de comandos simple, con implementacion de un pequeño analizador lexico basico a traves de condicionales, para la deteccion de errores sintacticos.
 El interprete de comandos, incluye sus instrucciones en el programa mismo
 Para obtener la ayuda, solo se debe ingresar "ayuda ayuda" y el interprete mostrara las opciones disponibles.
