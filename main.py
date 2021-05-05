@@ -4,7 +4,9 @@
 
 import dictionary
 import separador
+import os
 
+os.system("clear")
 #bucle infinito para la constante peticion de el input del usuario
 while True:
     palabra = input("Ingrese un comando ó ingrese 'Ayuda' para mostrar una guia\n")
