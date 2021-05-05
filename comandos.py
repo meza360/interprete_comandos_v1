@@ -33,7 +33,7 @@ def buscadorComandos(listaRecibida):
                 else:
                     os.system("ls")
             elif i == listaComandos[1]:
-                os.getcwd()
+                os.system("pwd")
             elif i == listaComandos[2]:
                 os.system("clear")
             elif i == listaComandos[3]:
