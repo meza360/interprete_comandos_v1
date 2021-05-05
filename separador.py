@@ -8,11 +8,11 @@ def separador(palabra_recibida):
     x = palabra_recibida.split(" ")
     for i in x:
         if validador.validacion(i) != 100:
-            print("Palabras denegadas, revise la sintaxis")
+            print("\nPalabras denegadas, revise la sintaxis")
             lista.append(i)
             break
         else:
-            print("Palabras aceptadas")
+            #print("\nPalabras aceptadas")
             lista.append(i)
             continue
     comandos.buscadorComandos(lista)
