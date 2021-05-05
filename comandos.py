@@ -34,6 +34,7 @@ def buscadorComandos(listaRecibida):
                     os.system("ls")
             elif i == listaComandos[1]:
                 os.system("pwd")
+                print("\r<--- Directorio actual de trabajo")
             elif i == listaComandos[2]:
                 os.system("clear")
             elif i == listaComandos[3]:
