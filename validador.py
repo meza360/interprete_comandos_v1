@@ -5,7 +5,7 @@ import sys
 from subprocess import call
 
 # lista de palabras reservadas
-lista_palabras = ["ayuda","listar","directorio","limpiar","editar","concatenar","direcccionip","usocpu","comandos","listaservicios","servicio","arbol","lista","salir"]
+lista_palabras = ["ayuda","listar","directorio","limpiar","editar","concatenar","direccionip","usocpu","comandos","listaservicios","servicio","arbol","lista","salir"]
 limpia = ['clear']
 
 def validacion(palabraRecibida):

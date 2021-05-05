@@ -7,7 +7,7 @@ import dictionary
 from subprocess import call
 
 # listas para ejecucion de comandos 
-listaComandos = ["listar","directorio","limpiar","editar","concatenar","direcccionip","usocpu","listaservicios","servicio"]
+listaComandos = ["listar","directorio","limpiar","editar","concatenar","direccionip","usocpu","listaservicios","servicio"]
 serviciosArbol = ['systemctl','status']
 serviciosLista = ['systemctl','-a']
 servicioExplicito = "systemctl status "
@@ -45,7 +45,7 @@ def buscadorComandos(listaRecibida):
             elif i == listaComandos[4]:
                 os.system("cat "+listaRecibida[1])
             elif i == listaComandos[5]:
-                os.system("ipaddress")
+                os.system("ip addr")
             elif i == listaComandos[6]:
                 os.system("top")
             elif i == listaComandos[7]:
