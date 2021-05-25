@@ -24,6 +24,7 @@ def buscadorComandos(listaRecibida):
             if i == "ayuda":
                 if palabras > 1:
                     dictionary.ayuda_comandos(listaRecibida[1])
+                    break
                 else:
                     dictionary.ayuda_comandos(listaRecibida[0])
                     break
