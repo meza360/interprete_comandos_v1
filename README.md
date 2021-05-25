@@ -9,3 +9,5 @@ Sistema operativo Linux.
 
 # Soporte para Windows
 Se incluira una opcion para determinar el sistema operativo a utilizar, y asi obtener los resultados esperados con las llamadas al sistema.
+
+![](terminal.gif)
