@@ -8,6 +8,7 @@ import comandos
 def separador(palabra_recibida):
     #se genera una lista vacia para enviar los comandos al seleccionador de comandos
     lista = []
+    
     x = palabra_recibida.split(" ")
     for i in x:
         #se verifica si la palabra es reservada
