@@ -10,7 +10,8 @@ lista_comandos = {
         "concatenar": "\nMuestra el contenido de el archivo seleccionado\n Uso: concatenar archivo.txt",
         "direccionip": "\nMuestra las direcciones IP en las interfaces de red\n Uso: direccionip",
         "usocpu": "\nMuestra el menu del uso del CPU con informacion detallada\n Uso: usocpu",
-        "listaservicios": "\nMuestra una lista de los servicios que corren en la maquina\n Uso: listaservicios"
+        "listaservicios": "\nMuestra una lista de los servicios que corren en la maquina\n Uso: listaservicios",
+        "servicio": "\nservicio \nMuestra la informacion sobre un servicio en especifico, para lo cual, debe saber el nombre del proceso, puede encontrarlo con el comando 'listaservicios' \nUso: servicio 'nombre_del_servicio'"
 
     }
 

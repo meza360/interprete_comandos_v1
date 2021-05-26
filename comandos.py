@@ -58,4 +58,7 @@ def buscadorComandos(listaRecibida):
                 else:
                     print("\nSe necesita al menos un tipo de vista especifica, arbol o lista")
             elif i == listaComandos[8]:
-                os.system(servicioExplicito + listaRecibida[1])
+                if palabras > 1:
+                    os.system(servicioExplicito + listaRecibida[1])
+                else:
+                    print("\nSe necesita al menos un servicio para verificar su estatus\nUso: servicio 'nombre_del_servicio'")
